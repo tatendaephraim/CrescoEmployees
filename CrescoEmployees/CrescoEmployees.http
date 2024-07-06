@@ -1,0 +1,6 @@
+@CrescoEmployees_HostAddress = http://localhost:5232
+
+GET {{CrescoEmployees_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
