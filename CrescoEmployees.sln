@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrescoEmployees", "CrescoEmployees\CrescoEmployees.csproj", "{5C840A6C-DA83-42FB-BFF6-F391684E62D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrescoEmployees", "CrescoEmployees\CrescoEmployees.csproj", "{5C840A6C-DA83-42FB-BFF6-F391684E62D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareExample", "MiddlewareExample\MiddlewareExample.csproj", "{BC446F1F-C321-4028-91A5-D70F42D8F285}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddlewareExample", "MiddlewareExample\MiddlewareExample.csproj", "{BC446F1F-C321-4028-91A5-D70F42D8F285}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{5E6D9641-E9AD-472A-A952-4B83E124F260}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{5E6D9641-E9AD-472A-A952-4B83E124F260}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{A679D645-88D3-4BA4-9652-8EBFE2F815F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{A679D645-88D3-4BA4-9652-8EBFE2F815F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{89465C46-EFDF-431D-9642-D931AFAAD76E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{0F7F5298-E83D-437F-8650-D78087383DF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{A679D645-88D3-4BA4-9652-8EBFE2F815F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A679D645-88D3-4BA4-9652-8EBFE2F815F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A679D645-88D3-4BA4-9652-8EBFE2F815F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89465C46-EFDF-431D-9642-D931AFAAD76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89465C46-EFDF-431D-9642-D931AFAAD76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89465C46-EFDF-431D-9642-D931AFAAD76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89465C46-EFDF-431D-9642-D931AFAAD76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7F5298-E83D-437F-8650-D78087383DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7F5298-E83D-437F-8650-D78087383DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7F5298-E83D-437F-8650-D78087383DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7F5298-E83D-437F-8650-D78087383DF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
